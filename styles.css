@@ -62,3 +62,10 @@
   .choice-heading .eyebrow{font-size:9px;letter-spacing:.08em;line-height:1.5}
   .orbit-shell{margin-top:0;transform:translateY(-16px)}
 }
+
+/* Акцентные фразы без курсива; круги выше, пояснение под ними */
+h1 em,h2 em,.choice-heading em{font-style:normal}
+.choice-heading h1{margin-bottom:0}
+.orbit-shell{margin-top:-28px;transform:translateY(-18px)}
+.choice-invitation{text-align:center;color:#555;line-height:1.6;font-size:clamp(15px,1.7vw,18px);margin:-22px auto 22px;max-width:720px}
+@media(max-width:650px){.orbit-shell{margin-top:-34px;transform:translateY(-18px)}.choice-invitation{margin:-25px auto 22px;padding:0 8px;font-size:15px}}
