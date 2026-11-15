@@ -48,4 +48,17 @@
     height: 157px;
   }
 }
-  
+
+/* Компактный первый экран: заголовок и орбита выше */
+.choice-hero{padding-top:clamp(28px,4vw,48px)}
+.choice-heading .eyebrow{justify-content:center}
+.choice-heading h1{margin:12px 0 12px;line-height:1.12}
+.choice-title-line{display:block;font-style:normal;white-space:nowrap}
+.choice-heading>p{margin-bottom:8px}
+.orbit-shell{margin-top:0;transform:translateY(-12px)}
+@media(max-width:650px){
+  .choice-hero{padding-top:24px}
+  .choice-heading h1{font-size:clamp(32px,8.4vw,44px);margin:10px 0}
+  .choice-heading .eyebrow{font-size:9px;letter-spacing:.08em;line-height:1.5}
+  .orbit-shell{margin-top:0;transform:translateY(-16px)}
+}
